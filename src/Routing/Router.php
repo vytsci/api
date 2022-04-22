@@ -850,8 +850,8 @@ class Router
     {
         return $this->currentRouteAction() == $action;
     }
-    
-        /**
+
+    /**
      * Flush the router's middleware groups.
      *
      * @return $this
