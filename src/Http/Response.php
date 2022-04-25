@@ -196,7 +196,7 @@ class Response extends IlluminateResponse
     /**
      * {@inheritdoc}
      */
-    public function setContent($content)
+    public function setContent($content): static
     {
         // Attempt to set the content string, if we encounter an unexpected value
         // then we most likely have an object that cannot be type cast. In that
