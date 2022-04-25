@@ -8,12 +8,6 @@
         "restful"
     ],
     "license": "BSD-3-Clause",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/vytsci/blueprint.git"
-        }
-    ],
     "authors": [{
         "name": "Jason Lewis",
         "email": "jason.lewis1991@gmail.com"
