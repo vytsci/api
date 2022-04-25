@@ -8,15 +8,21 @@
         "restful"
     ],
     "license": "BSD-3-Clause",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vytsci/blueprint.git"
+        }
+    ],
     "authors": [{
         "name": "Jason Lewis",
         "email": "jason.lewis1991@gmail.com"
     }],
     "require": {
         "php": "^7.2.5|^8.0",
-        "dingo/blueprint": "^0.4",
-        "illuminate/routing": "^7.0|^8.0",
-        "illuminate/support": "^7.0|^8.0",
+        "dingo/blueprint": "dev-l9-compatibility",
+        "illuminate/routing": "^7.0|^8.0|^9.0",
+        "illuminate/support": "^7.0|^8.0|^9.0",
         "league/fractal": "^0.19"
     },
     "require-dev": {
